@@ -1,0 +1,231 @@
+html{
+  background-color: rgb(247, 246, 244);
+}
+body{
+  font-family: 'Noto Sans JP', sans-serif;
+  padding:0;
+  width: 70%;
+  margin:0 auto;
+}
+header{
+  display:flex;
+  justify-content: space-between;
+  color: rgb(54, 54, 54);
+}
+#logo{
+  font-weight:bold;
+  color:rgb(248, 198, 207);
+  font-family: 'Raleway', sans-serif;
+  font-size:48px;
+  padding:12px ;
+  padding-left:0;
+}
+#call{
+  font-size:24px;
+  margin:0;
+  text-align: center;
+}
+#time{
+ margin:0;
+ font-size:12px;
+ border:1px solid rgb(100, 100, 100);
+ padding:6px;
+}
+#time span{
+  color:rgb(241, 23, 23);
+}
+.info{
+  padding-top:12px;
+}
+.mainmenu{
+  width:100%;
+}
+.mainmenu ul{
+  display:flex;
+  list-style: none;
+  padding:0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.mainmenu a{
+  text-decoration: none;
+  color:white;
+  display: block;
+  width:100%;
+  padding:15px 0;
+}
+.mainmenu span{
+  font-size:12px;
+}
+.mainmenu li{
+  flex-grow: 1;
+  background: rgb(253, 175, 189);
+  text-align: center;
+  border-right:1px solid rgb(250, 199, 208);
+}
+.mainmenu li:hover{
+  opacity:0.8;
+}
+.side table{
+  outline:1px solid rgb(253, 175, 189);
+  width:100%;
+  margin-bottom:34px;
+  text-align: center;
+  border-collapse:collapse;
+  border-radius: 8px 8px 0 0;
+  overflow: hidden;
+}
+.side th{
+  padding:12px;
+  background-color: rgb(253, 175, 189);
+  color:white;
+  width:100%;
+}
+td{
+  border-top:1px solid rgb(253, 175, 189);
+  padding:12px;
+  background-color: white;
+  width:100%;
+}
+.said{
+  width:20%;
+}
+.side a{
+  text-decoration: none;
+  color: rgb(54, 54, 54);
+}
+.side a:hover{
+  color: rgb(250, 199, 208);
+}
+.wrapper{
+  display:flex;
+  justify-content: space-between;
+  width:100%;
+}
+main{
+  width:75%;
+  background-color: white;
+  border-radius: 8px 8px 0 0;
+}
+main h1{
+  background-color: rgb(253, 175, 189);
+  border-radius: 8px 8px 0 0;
+  padding:24px;
+  margin:0;
+  color:white;
+  font-size:22px;
+}
+main h2{
+  font-size:18px;
+  padding:0 24px;
+}
+main h3{
+  border-top:3px solid rgb(253, 175, 189);
+  font-size:16px;
+  margin:0 30px;
+  color:rgb(253, 175, 189);
+  padding-top:24px;
+}
+main p{
+  padding:0 30px;
+  font-size:14px;
+}
+.kizi{
+  background-color: white;
+  padding:24px 40px;
+}
+.kizi h1{
+  font-size:18px;
+  margin-top:0;
+  border-bottom:3px solid rgb(250, 199, 208);
+  padding-bottom:12px;
+}
+
+.submenu{
+  margin-top:12px;
+  width:100%;
+  background-color: rgb(253, 175, 189);
+  border-radius: 6px;
+}
+.submenu ul{
+  list-style:none;
+  display:flex;
+  padding:0;
+  padding:10px 0;
+}
+.submenu a{
+margin-left:24px;
+text-decoration: none;
+color: white;
+font-weight: lighter;
+}
+footer{
+  font-size:12px;
+  text-align:center;
+  margin-bottom:24px;
+  margin-top:24px;
+  padding-top:24px;
+  border-top:2px solid rgb(253, 175, 189);
+}
+main table{
+  border:1px solid black;
+  border-collapse:collapse;
+  width:90%;
+  margin:0 auto;
+}
+main th{
+  border:1px solid black;
+  padding:12px 0;
+}
+.first{
+  background-color: rgb(184, 179, 179);
+}
+.annnai{
+  border-top: 3px solid rgb(253, 175, 189);
+  padding-top:24px;
+  margin:0 24px;
+}
+.annnai p{
+  margin:32px 0;
+}
+
+@media screen and (max-width:960px){
+  body{
+    width:90%;
+  }
+
+  .wrapper{
+    display:block;
+  }
+  main {
+    width:100%;
+  }
+  main img{
+    width:100%;
+  }
+  .kizi dt{
+    float:none;
+  }
+  .kizi dd{
+    padding:0;
+  }
+  .mainmenu{
+    margin:0 auto;
+  }
+  .mainmenu ul{
+    border-radius: 0;
+    flex-flow: wrap;
+    justify-content: center;
+  }
+  .mainmenu li{
+    border-radius: 4px;
+    width:45%;
+    flex-grow:0;
+  }
+  .submenu ul{
+    flex-flow:wrap;
+  }
+  .submenu li{
+    margin-bottom:12px;
+  }
+}
