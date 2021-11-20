@@ -76,6 +76,7 @@ table{
   overflow: hidden;
 }
 th{
+  border-radius: 8px 8px 0 0;
   padding:12px;
   background-color: rgb(253, 175, 189);
   color:white;
